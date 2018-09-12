@@ -1,0 +1,297 @@
+ideologies = {
+	
+	absolute_monarchist = {
+	
+		types = {
+			
+			conservative_monarchism = {
+			}
+			
+			liberal_monarchism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ABSOLUTE_MONARCHIST_1"
+			"FACTION_NAME_ABSOLUTE_MONARCHIST_2"
+			"FACTION_NAME_ABSOLUTE_MONARCHIST_3"
+		}
+		
+		color = { 61 0 102 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_neutral = yes
+	}
+	
+	constitutional_monarchist = {
+	
+		types = {
+			
+			parliamentarianism = {
+			}
+			
+			reduced_absolutism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSTITUTIONAL_MONARCHIST_1"
+			"FACTION_NAME_CONSTITUTIONAL_MONARCHIST_2"
+			"FACTION_NAME_CONSTITUTIONAL_MONARCHIST_3"
+		}
+		
+		color = { 206 145 247 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_neutral = yes
+	}
+	
+	national_populist = {
+	
+		types = {
+			
+			revanchism = {
+			}
+			
+			nationalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_POPULIST_1"
+			"FACTION_NAME_NATIONAL_POPULIST_2"
+			"FACTION_NAME_NATIONAL_POPULIST_3"
+		}
+		
+		color = { 117 64 0 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_fascist = yes
+	}
+
+	social_liberal = {
+	
+		types = {
+			
+			liberalism = {
+			}
+			
+			individualism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+		}
+		
+		color = { 255 230 45 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		ai_democratic = yes
+	}
+		
+	social_conservative = {
+	
+		types = {
+			
+			conservatism = {
+			}
+			
+			reactionism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
+		}
+		
+		color = { 11 0 117 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_democratic = yes
+	}
+	
+	socialist = {
+	
+		types = {
+			
+			social_democracy = {
+			}
+			
+			socialism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+		}
+		
+		color = { 255 112 162 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_communist = yes
+	}
+
+	communism = {
+		
+		types = {
+		
+			marxism = {
+			}
+			
+			anarchist_communism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
+}
