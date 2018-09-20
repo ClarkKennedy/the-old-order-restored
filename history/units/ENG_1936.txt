@@ -1,4 +1,4 @@
-﻿division_template = {
+﻿﻿division_template = {
 	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
 	division_names_group = ENG_INF_01
 
@@ -39,6 +39,170 @@ division_template = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "District Force"				# For 2-brigade Military Districts
+
+	division_names_group = SAF_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "District Brigade"			# For 1-brigade Military Districts
+
+	division_names_group = SAF_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Malaya Infantry Brigade"		
+	division_names_group = BRENGL_INFB_01		# Uses generic English templates
+	# Note: originally formed in 1939
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "District Force"		# Military District Forces (reserve/garrison forces)
+	# Note: all forces at reserve levels in 1936
+
+	division_names_group = NZL_MIL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armoured Division"
+
+	division_names_group = NZL_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Infantry Division"	# Divisions were reserves assigned to various military districts
+
+	division_names_group = AST_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	division_names_group = AST_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armoured Division"
+
+	division_names_group = AST_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Armored-Division"
+
+	division_names_group = SAF_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "District Militia"	# For largest Military District Forces (3 brigade forces)
+	# Note: all forces at reserve levels in 1936
+
+	division_names_group = CAN_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Militia"  
+	# Note: all forces at reserve levels in 1936
+
+	division_names_group = CAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+
+	division_names_group = CAN_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
 	}
 }
 division_template = {
@@ -410,13 +574,404 @@ units = {
 		start_equipment_factor = 0.15
 
 	}
-	
+	##### Royal Canadian Army #####
+	## 1st Miltary District ##
+	division= {	
+		#name = "1st District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 722 # London ONT
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
 
+	}
+
+	## 2nd Miltary District ##
+	division= {	
+		#name = "2nd District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3775 # Toronto
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd District Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3775 # Toronto
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 3rd Miltary District ##
+	division= {	
+		#name = "3rd District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3605 # Kingston ONT
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 4th Miltary District ##
+	division= {	
+		#name = "4th District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4345 # Montreal
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "4th District Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4345 # Montreal
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 5th Miltary District ##
+	division= {	
+		#name = "5th District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12149 # Quebec City
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 6th Miltary District ##
+	division= {	
+		#name = "6th District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7361  # Halifax
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 7th Miltary District ##
+	division= {	
+		#name = "7th District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4285 # St Johns
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 10th Miltary District ##
+	division= {	
+		#name = "10th District Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4872  # Winnepeg
+		division_template = "District Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "10th District Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4872  # Winnepeg
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		#name = "12th District Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 12603  # Regina SASK
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {	
+		#name = "13th District Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 3706  # Calgary ALB
+		division_template = "Cavalry Militia" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+    
+    division= {	
+		#name = "Cape Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12589 # Capetown
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Natal Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1468 # Durbin
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Orange Free State Cmd."
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12648  # Bloemfontein
+		division_template = "District Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Eastern Province Cmd."
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4696 # East London
+		division_template = "District Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "RH-Transvaal Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10400 # Pretoria
+		division_template = "District Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Witwatersrand Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10400 # Johannesburg
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+    ##### Royal Australian Army #####
+	division= {	
+		#name = "5th Infantry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1652 # Perth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "1st Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7564 # Brisbane
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# 2nd Military District -- New South Wales
+	division= {	
+		#name = "1st Infantry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12406 # Sydney
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd Infantry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7859 # Canberra
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# 3rd Military District -- New South Wales
+	division= {	
+		#name = "3rd Infantry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7798 # Melbourne
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "4th Infantry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7798 # Melbourne
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd Cavalry Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7798 # Melbourne
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	######## LAND OOB ########
+	##### Malayan High Command #####
+	division = { # "1st Malaya Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12299
+		division_template = "Malaya Infantry Brigade"		
+		start_experience_factor = 0.0
+	}
+	
+	division = { # "2nd Malaya Infantry Brigade"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 7371
+		division_template = "Malaya Infantry Brigade"		
+		start_experience_factor = 0.0
+	}
+	##### Royal New Zealand Army #####
+	division= {	
+		#name = "Northern Military District"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4543 # Auckland
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Central Military District"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1814 # Wellington
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Southern Military District"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2197 # Christchurch
+		division_template = "District Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
 	
 	##### NAVAL UNITS #####
 	### HOME COMMAND ###
 	navy = {				
-		name = "Home Fleet"			
+		name = "Grand Fleet"			
 		base = 11064
 		location = 11064 # Scapa Flow
 		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
@@ -425,14 +980,20 @@ units = {
 				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
 			}
 		}
-		ship = { name = "HMS Nelson" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }			
-		ship = { name = "HMS Rodney" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }				
+		ship = { name = "HMS St. David" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }			
+		ship = { name = "HMS St. Patrick" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }
+		ship = { name = "HMS St. Andrew" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS St. George" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG } } }			
 		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
 		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
 		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
 		ship = { name = "HMS Hood" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }	
-		ship = { name = "HMS Repulse" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }					
-		ship = { name = "HMS Renown" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "HMS Repulse" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }					
+		ship = { name = "HMS Renown" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
+		ship = { name = "HMS Nelson" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }	
+		ship = { name = "HMS Rodney" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+		ship = { name = "HMS Sidney" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+		ship = { name = "HMS Elphinstone" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }			
 		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Emerald" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
@@ -465,7 +1026,7 @@ units = {
 		ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }							# to RCN as Saskatchewan, 1943	
 	}				
 	navy = {				
-		name = "Reserve Fleet"			
+		name = "Home Fleet"			
 		base = 9458 
 		location = 9458
 		ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }	
@@ -885,21 +1446,21 @@ air_wings = {
 		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
-			amount = 48
+			amount = 96
 		}
 	}
 	126 = { 
 		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
-			amount = 64
+			amount = 128
 		}
 	}
 	130 = { 
 		### No. 4 Bomber Command, York area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
-			amount = 80
+			amount = 160
 		}
 	}
 	128 = { 
@@ -924,7 +1485,7 @@ air_wings = {
 		### AHQ Egypt
 		fighter_equipment_0 = {
 			owner = "ENG" 
-			amount = 72
+			amount = 200
 		}
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
@@ -979,8 +1540,8 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "ENG"
 		}
-		requested_factories = 3
-		progress = 0.1
+		requested_factories = 10
+		progress = 0.9
 		efficiency = 50
 	}
 
@@ -989,8 +1550,8 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "ENG" 
 		}
-		requested_factories = 1
-		progress = 0.3
+		requested_factories = 3
+		progress = 0.8
 		efficiency = 50
 	}
 
@@ -999,7 +1560,7 @@ instant_effect = {
 			type = light_tank_equipment_1
 			creator = "ENG" 
 		}
-		requested_factories = 1
+		requested_factories = 7
 		progress = 0.4
 		efficiency = 50
 	}
@@ -1009,7 +1570,7 @@ instant_effect = {
 			type = fighter_equipment_0
 			creator = "ENG" 
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.15
 		efficiency = 50
 	}
@@ -1019,7 +1580,7 @@ instant_effect = {
 			type = tac_bomber_equipment_0
 			creator = "ENG" 
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}
@@ -1061,7 +1622,7 @@ instant_effect = {
 			version_name = "S Class"
 		}
 		requested_factories = 2
-		progress = 0.50
+		progress = 0.80
 		amount = 3
 	}
 	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
@@ -1082,7 +1643,7 @@ instant_effect = {
 			version_name = "Amphion Class"
 		}
 		requested_factories = 1
-		progress = 0.50
+		progress = 0.85
 		amount = 1
 	}
 	add_equipment_production = {
@@ -1092,7 +1653,7 @@ instant_effect = {
 			version_name = "Amphion Class"
 		}
 		requested_factories = 1
-		progress = 0.15
+		progress = 0.85
 		amount = 1
 	}
 }

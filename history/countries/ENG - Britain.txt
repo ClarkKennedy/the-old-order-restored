@@ -37,7 +37,8 @@ set_technology = {
 	early_battlecruiser = 1
 	early_carrier = 1
 	trench_warfare = 1
-
+	basic_battleship = 1
+    heavy_battleship = 1
 	transport = 1
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
@@ -47,10 +48,26 @@ set_technology = {
 
 add_ideas = {
 	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
+	ENG_gallipoli_penalty
+	imperial_patriotism
+	imperial_grand_fleet
 }
 
-set_convoys = 800
+set_convoys = 1200
+# Dominion of India still belongs to the Imperial Federation
+if = {
+	limit =  {
+	    has_dlc = "Together for Victory"
+	}	
+		set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.05
+	}
+	else = {
+	    puppet = RAJ
+	}
+}
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

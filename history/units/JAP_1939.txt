@@ -1586,7 +1586,7 @@ instant_effect = {
 				creator = "JAP" 
 			}
 			requested_factories = 1
-			progress = 0.1
+			progress = 0.99
 			amount = 1
 		}
 		add_equipment_production = {				# "Shokaku"

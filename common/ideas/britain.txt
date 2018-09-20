@@ -114,7 +114,7 @@ ideas = {
 
 		}
 
-		ENG_the_war_to_end_all_wars = {
+		ENG_gallipoli_penalty = {
 			
 			allowed = {
 				always = no
@@ -129,8 +129,8 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				conscription_factor = -0.25
-				#conscription = -0.006
+				generate_wargoal_tension = 0.25
+                
 			}
 		}
 		
@@ -155,8 +155,48 @@ ideas = {
 			}			
 		}
 
+		imperial_patriotism = {
+
+		    allowed = {
+		        always = no
+		    }
+		    removal_cost = -1
+
+		    allowed_civil_war = {
+		       always = yes
+		    }
+
+		    modifier = {
+		        stability_factor = 0.1
+		        political_power_gain = 0.5
+		    }
+		}
 		
-		
+		imperial_grand_fleet = {
+
+		    allowed = {
+		        always = no
+		    }
+		    removal_cost = -1
+
+		    allowed_civil_war = {
+		        always = yes
+		    }
+
+		    equipment_bonus = {
+
+				capital_ship = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				carrier = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				screen_ship = {
+					build_cost_ic = -0.10 instant = yes
+				}
+			}
+		}
+
 		british_austerity_idea = {
 			
 			allowed = {
