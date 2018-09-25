@@ -1,0 +1,55 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 715600
+	resources={
+		steel=30
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = FRA
+		
+		1346 = {
+			bunker = 10
+
+		}
+		13206 = {
+			bunker = 10
+
+		}
+		13207 = {
+			bunker = 10
+
+		}
+		13208 = {
+			bunker = 10
+
+		}
+		13209 = {
+			bunker = 10
+
+		}
+		13210 = {
+			bunker = 10
+
+		}
+		anti_air_building = 5
+		air_base = 5
+	}
+
+	provinces={
+		1346 13206 13207 13208 13209 13210 
+	}
+	
+	
+}

@@ -61,11 +61,11 @@ set_politics = {
 		}
 		
 		social_liberal = {
-			popularity = 38
+			popularity = 30
 		}
 		
 		national_populist = {
-			popularity = 30
+			popularity = 38
 		}
 		
 		socialist = {

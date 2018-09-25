@@ -19,6 +19,11 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	indian_democracy
+	imperial_jewel
+}
+
 if = {
 	limit = { has_dlc = "Together for Victory" }
 

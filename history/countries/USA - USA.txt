@@ -38,7 +38,6 @@ set_technology = {
 }
 
 #Monroe Doctrine
-give_guarantee = CAN
 give_guarantee = MEX
 give_guarantee = CUB
 give_guarantee = HAI
@@ -60,132 +59,42 @@ give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
 
-1939.1.1 = {
-
-	add_political_power = 1199
-	
-	#adding ministers
-	add_ideas = {
-		USA_robert_taft
-		carl_spaatz
-		jimmy_doolittle
-		army_ordnance_department
-		general_electric
-		robert_goddard
-		USA_prepare_intervention
-
-		#laws
-		isolation
-		volunteer_only
-
-		new_deal
-	}
-
-	#focuses
-	unlock_national_focus = USA_wpa
-	unlock_national_focus = USA_war_propaganda
-	unlock_national_focus = USA_prepare_intervention
-	complete_national_focus = USA_military_construction
-	complete_national_focus = USA_air_war_plans_division
-	complete_national_focus = USA_reinforce_monroe_doctrine
-	complete_national_focus = USA_bureau_of_ships
-	complete_national_focus = USA_escort_effort
-	complete_national_focus = USA_amphibious_operations
-	complete_national_focus = USA_expand_the_USMC
-	complete_national_focus = USA_convoy_tactics
-	complete_national_focus = USA_fund_the_navy
-
-	set_global_flag = earhart_disappeared
-	oob = "USA_1939"
-	set_technology = {
-		fighter1 = 1
-		cv_fighter1 = 1
-		heavy_fighter1 = 1
-		tactical_bomber1 = 1
-		CAS2 = 1
-		strategic_bomber1 = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		marines = 1
-		improved_submarine = 1
-		basic_destroyer = 1
-		basic_heavy_cruiser = 1
-		basic_battlecruiser = 1
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		infrastructure_destruction = 1
-		naval_strike_tactics = 1
-
-		sup_delay = 1
-		submarine_operations_bs = 1
-		carrier_primacy = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	create_equipment_variant = {
-		name = "Martin M166"
-		type = tac_bomber_equipment_0
-		upgrades = {
-			plane_tac_bomb_upgrade = 2
-			plane_range_upgrade = 1
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 3
-		}
-	}
-}
-
-
-
-
 set_convoys = 400
 
 
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		constitutional_monarchist = { 
+			popularity = 0
 		}
 
-		fascism = {
+		absolute_monarchist = {
+			popularity = 0
+		}
+		
+		social_conservative = {
+			popularity = 51
+		}
+		
+		social_liberal = {
+			popularity = 48
+		}
+		
+		national_populist = {
+			popularity = 0
+		}
+		
+		socialist = {
 			popularity = 0
 		}
 		
 		communism = {
 			popularity = 1
-			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -193,8 +102,6 @@ set_politics = {
 
 add_ideas = {
 	undisturbed_isolation
-	great_depression
-	disarmed_nation
 	free_trade
 	home_of_the_free
 }
@@ -206,32 +113,6 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
-1939.1.1 = {
-
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
 create_country_leader = {
 	name = "Franklin Delano Roosevelt"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
@@ -239,7 +120,29 @@ create_country_leader = {
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
+
+	}
+}
+
+create_country_leader = {
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_USA_Jack_Reed.tga"
+	expire = "1965.1.1"
+	ideology = socialist
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "Alf Landon"
+	desc = "POLITICS_ALF_LANDON_DESC"
+	picture = "Portrait_USA_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		staunch_constitutionalist
 	}
 }
 
@@ -248,7 +151,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism
 	traits = {
 		
 	}
@@ -260,6 +163,28 @@ create_country_leader = {
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Huey Long"
+	desc = "POLITICS_HUEY_LONG_DESC"
+	picture = "Portrait_USA_Huey_Long.dds"
+	expire = "1965.1.1"
+	ideology = parliamentarianism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George I"
+	desc = "POLITICS_GEORGE_I_DESC"
+	picture = "Portrait_USA_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = conservative_monarchism
 	traits = {
 		
 	}
@@ -658,64 +583,4 @@ create_equipment_variant = {
 		ship_reliability_upgrade = 1
 	}
 
-}
-
-1939.1.1 = {
-	
-	create_equipment_variant = {
-		name = "Salmon Class"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Benson & Gleaves Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 3
-			destroyer_engine_upgrade = 3
-			ship_ASW_upgrade = 3
-			ship_anti_air_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Wasp Class"
-		type = carrier_2
-		upgrades = {
-			ship_deckspace_upgrade = 2
-			carrier_armor_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_reliability_upgrade = 2
-		}
-	}
-
-	create_equipment_variant = {
-		name = "F2A Buffalo"
-		type = cv_fighter_equipment_1
-		upgrades = {
-			cv_plane_gun_upgrade = 5
-			cv_plane_range_upgrade = 0
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 5
-		}
-	}
-
-
-	# 1941
-	#create_equipment_variant = {
-	#	name = "South Dakota Class"
-	#	type = battleship_2
-	#	upgrades = {
-	#		ship_reliability_upgrade = 3
-	#		ship_engine_upgrade = 3
-	#		ship_armor_upgrade = 3
-	#		ship_gun_upgrade = 3
-	#	}
-	#}
 }

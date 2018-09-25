@@ -220,7 +220,6 @@ division_template = {
 	priority = 0
 }
 
-
 units = {
 	#Aldershot Command
 	division= {	# "1st Infantry Division"
@@ -266,9 +265,9 @@ units = {
 	}
 	#Northern Command
 	division= {	
-		name = "5th Cavalry Brigade"
+		name = "5th Cavalry Division"
 		location = 11297
-		division_template = "Cavalry Brigade"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -322,7 +321,7 @@ units = {
 		location = 11221
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 	division= {	# "54th 'East Anglia' Infantry Division"
@@ -333,16 +332,16 @@ units = {
 		location = 3287
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	#Western Command	
 	division= {	
-		name = "6th Cavalry Brigade"
+		name = "6th Cavalry Division"
 		location = 407
-		division_template = "Cavalry Brigade"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division= {	# "42nd 'East Lancashire' Infantry Division"
@@ -353,7 +352,7 @@ units = {
 		location = 6318
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division= {	# "53rd 'Welsh' Infantry Division"
@@ -364,7 +363,7 @@ units = {
 		location = 311
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division= {	# "55th 'West Lancashire' Infantry Division"
@@ -382,7 +381,7 @@ units = {
 	division= {	
 		name = "Royal Tank Regiment"
 		location = 9239
-		division_template = "Tank Brigade"
+		division_template = "Armoured Division"
 		start_experience_factor = 0.3
 	}
 	division= {	# "3rd Infantry Division"
@@ -422,37 +421,37 @@ units = {
 	division= {	
 		name = "Sudan Defense Force"
 		location = 12806
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.4
+		start_equipment_factor = 1
 
 	}
 	#Palestine & Transjordan
 	division= {	
 		name = "Jerusalem & Lydda Area"
 		location = 4206
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	#Aden
 	division= {	
 		name = "Aden Defense Force"
 		location = 12821
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	#Egypt
 	division= {	
 		name = "Cairo Force"
 		location = 7011
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -460,15 +459,15 @@ units = {
 	division= {	
 		name = "Canal Brigade"
 		location = 1155
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.15
+		start_equipment_factor = 1
 
 	}
 	division= {	
-		name = "The Cavalry Brigade (Egypt)"
+		name = "The Cavalry Division (Egypt)"
 		location = 4076
-		division_template = "Cavalry Brigade"
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -477,7 +476,7 @@ units = {
 	division= {	
 		name = "Gibraltar Defense Force"
 		location = 4135
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -487,9 +486,9 @@ units = {
 	division= {	
 		name = "Malta Command"
 		location = 12003
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 1
 
 	}
 	
@@ -497,15 +496,15 @@ units = {
 	division= {	
 		name = "East Africa Force"
 		location = 1939
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division= {	  
 		name = "Southern Africa Force"
-		location = 12911
-		division_template = "Colonial Garrison"
+		location = 1939
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -513,7 +512,7 @@ units = {
 	division= {	
 		name = "Northern Rhodesia Groups"
 		location = 1939
-		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		division_template = "Infantry Division"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_equipment_factor = 0.3
 
@@ -523,7 +522,7 @@ units = {
 	division= {	
 		name = "1 West African Force"
 		location = 2050
-		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		division_template = "Infantry Division"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
@@ -531,7 +530,7 @@ units = {
 	division= {	  
 		name = "2 West African Force"
 		location = 10862 
-		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
+		division_template = "Infantry Division"			# Colonial militia (lowest equipment and experience)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
@@ -542,7 +541,7 @@ units = {
 	division= {	
 		name = "Hong Kong VDF"
 		location = 10062
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 
@@ -551,7 +550,7 @@ units = {
 	division= {	
 		name = "Singapore Fortress"
 		location = 12299
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 
@@ -559,7 +558,7 @@ units = {
 	division= {	
 		name = "Penang Fortress"
 		location = 12215
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -568,7 +567,7 @@ units = {
 	division= {	
 		name = "Ceylon Defense Force"
 		location = 7260
-		division_template = "Colonial Garrison"
+		division_template = "Infantry Division"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
@@ -577,13 +576,13 @@ units = {
 	##### Royal Canadian Army #####
 	## 1st Miltary District ##
 	division= {	
-		#name = "1st District Militia"
+		#name = "1st Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 722 # London ONT
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -591,13 +590,13 @@ units = {
 
 	## 2nd Miltary District ##
 	division= {	
-		#name = "2nd District Militia"
+		#name = "2nd Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 2
 		}
 		location = 3775 # Toronto
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -617,13 +616,13 @@ units = {
 
 	## 3rd Miltary District ##
 	division= {	
-		#name = "3rd District Militia"
+		#name = "3rd Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 3
 		}
 		location = 3605 # Kingston ONT
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -631,13 +630,13 @@ units = {
 
 	## 4th Miltary District ##
 	division= {	
-		#name = "4th District Militia"
+		#name = "4th Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 4
 		}
 		location = 4345 # Montreal
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -657,13 +656,13 @@ units = {
 
 	## 5th Miltary District ##
 	division= {	
-		#name = "5th District Militia"
+		#name = "5th Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 5
 		}
 		location = 12149 # Quebec City
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -671,13 +670,13 @@ units = {
 
 	## 6th Miltary District ##
 	division= {	
-		#name = "6th District Militia"
+		#name = "6th Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 6
 		}
 		location = 7361  # Halifax
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -685,13 +684,13 @@ units = {
 
 	## 7th Miltary District ##
 	division= {	
-		#name = "7th District Militia"
+		#name = "7th Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 7
 		}
 		location = 4285 # St Johns
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -699,13 +698,13 @@ units = {
 
 	## 10th Miltary District ##
 	division= {	
-		#name = "10th District Militia"
+		#name = "10th Infantry Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 10
 		}
 		location = 4872  # Winnepeg
-		division_template = "District Militia"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -756,7 +755,7 @@ units = {
 			name_order = 1
 		}
 		location = 12589 # Capetown
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -768,7 +767,7 @@ units = {
 			name_order = 2
 		}
 		location = 1468 # Durbin
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -780,7 +779,7 @@ units = {
 			name_order = 3
 		}
 		location = 12648  # Bloemfontein
-		division_template = "District Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -792,7 +791,7 @@ units = {
 			name_order = 4
 		}
 		location = 4696 # East London
-		division_template = "District Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -804,7 +803,7 @@ units = {
 			name_order = 5
 		}
 		location = 10400 # Pretoria
-		division_template = "District Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -816,7 +815,7 @@ units = {
 			name_order = 6
 		}
 		location = 10400 # Johannesburg
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -911,23 +910,23 @@ units = {
 	}
 	######## LAND OOB ########
 	##### Malayan High Command #####
-	division = { # "1st Malaya Infantry Brigade"
+	division = { # "1st Infantry Division"
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
 		location = 12299
-		division_template = "Malaya Infantry Brigade"		
+		division_template = "Infantry Division"		
 		start_experience_factor = 0.0
 	}
 	
-	division = { # "2nd Malaya Infantry Brigade"
+	division = { # "2nd Infantry Division"
 		division_name = {
 				is_name_ordered = yes
 				name_order = 2
 		}
 		location = 7371
-		division_template = "Malaya Infantry Brigade"		
+		division_template = "Infantry Division"		
 		start_experience_factor = 0.0
 	}
 	##### Royal New Zealand Army #####
@@ -938,7 +937,7 @@ units = {
 			name_order = 1
 		}
 		location = 4543 # Auckland
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -950,9 +949,9 @@ units = {
 			name_order = 4
 		}
 		location = 1814 # Wellington
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division= {	
@@ -962,9 +961,9 @@ units = {
 			name_order = 5
 		}
 		location = 2197 # Christchurch
-		division_template = "District Force"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	
@@ -983,7 +982,18 @@ units = {
 		ship = { name = "HMS St. David" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }			
 		ship = { name = "HMS St. Patrick" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }
 		ship = { name = "HMS St. Andrew" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "HMS St. George" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "HMS St. George" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "HMS Dauntless" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }
+        ship = { name = "HMS Imperial" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }
+        ship = { name = "HMS Canada" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = ENG  } } }
+        ship = { name = "HMS Trafalgar" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Prince George VI" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Ocean" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Saint Vincent" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Union" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Calcutta" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Cambrigde" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Australia" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
 		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
 		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
@@ -1029,12 +1039,361 @@ units = {
 		name = "Home Fleet"			
 		base = 9458 
 		location = 9458
+		ship = { name = "HMS Armada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+        ship = { name = "HMS Dublin" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+        ship = { name = "HMS Russell" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+        ship = { name = "HMS Redoubtable" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Malta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Victoria" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Queen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Bombay" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Singapore" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Dorshire" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Lothian" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+        ship = { name = "HMS Alberta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }	
 		ship = { name = "HMS Valiant" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }		
 		ship = { name = "HMS Frobisher" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Hawkins" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Carlisle" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "HMS Curlew" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Hurricane" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+        ship = { name = "HMS Lion" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+        ship = { name = "HMS Unconquerable" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+        ship = { name = "HMS Lock Ness" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }
+        ship = { name = "HMS Scotland" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "G3-Class" } } }  
+        ship = { name = "HMS Comet" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Star" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Tornado" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Ball" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Spice" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Gumball" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS County" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Book" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Timeless" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Dorshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Speedy" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Light" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Wales" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS England" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS India" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Newfoundland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Oceania" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Wolf" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Dover" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Pacific" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Pack" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Wonder" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Cape Coast" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Africa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Asia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Eastern" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Hannover" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Ulster" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Leinster" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Ireland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Golden" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Fiji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Columbia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Malaya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Polar" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Ascension" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Egypt" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Sudan" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Kenya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Borneo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Kingston" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "HMS Jamaica" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+ship = { name = "CL-01" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-02" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-03" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-04" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-05" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-06" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-07" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-08" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-09" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-35" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-36" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-42" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-43" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-44" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-45" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-46" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-47" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-48" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-49" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-50" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-51" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-52" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-53" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-54" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-55" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-56" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-57" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-58" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-59" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-60" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-61" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-62" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-63" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-64" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-65" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-66" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-67" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-68" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-69" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-70" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-71" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-72" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-73" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-74" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-75" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-76" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-77" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-78" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-79" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-80" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-81" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-82" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-83" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-84" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-85" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-86" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-87" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-88" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-89" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-90" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-91" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-92" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-93" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-94" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-95" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-96" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-97" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-98" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-99" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-100" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-101" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-102" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-103" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-104" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-105" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-106" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-107" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-108" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-109" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-110" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-111" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-112" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-113" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-114" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-115" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-116" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-117" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+ship = { name = "CL-118" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+
+ship = { name = "DD-01" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-02" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-03" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-04" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-05" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-06" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-07" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-08" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-09" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-10" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-11" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-12" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-13" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-14" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-15" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-16" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-17" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-18" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-19" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-20" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-21" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-22" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-23" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-24" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-25" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-26" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-27" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-28" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-29" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-30" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-31" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-32" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-33" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-34" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-35" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-36" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-37" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-38" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-39" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-40" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-41" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-42" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-43" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-44" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-45" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-46" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-47" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-48" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-49" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-50" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-51" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-52" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-53" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-54" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-55" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-56" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-57" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-58" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-59" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-60" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-61" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-62" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-63" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-64" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-65" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-66" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-67" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-68" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-69" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-70" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-71" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-72" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-73" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-74" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-75" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-76" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-77" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-78" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-79" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-80" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-81" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-82" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-83" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-84" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-85" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-86" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-87" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-88" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-89" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-90" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-91" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-92" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-93" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-94" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-95" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-96" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-97" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-98" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-99" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-100" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-101" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-102" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-103" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-104" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-105" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-106" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-107" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-108" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-109" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-110" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-111" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-112" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-113" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-114" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-115" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-116" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-117" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-118" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-119" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-120" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-121" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-122" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }               
+ship = { name = "DD-123" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-124" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-125" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-126" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-127" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-128" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-129" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-130" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-131" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-132" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }               
+ship = { name = "DD-133" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-134" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-135" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-136" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-137" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-138" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-139" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-140" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-141" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-142" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }               
+ship = { name = "DD-143" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-144" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-145" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-146" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-147" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-148" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-149" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-150" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-151" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-152" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }               
+ship = { name = "DD-153" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-154" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-155" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-156" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-157" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-158" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-159" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-160" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-161" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-162" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }               
+ship = { name = "DD-163" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-164" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-165" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-166" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-167" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-168" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-169" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-170" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+ship = { name = "DD-171" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }     
 		# Reserve Destroyer Division
 		ship = { name = "HMS Whitshed" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 		ship = { name = "HMS Wild Swan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
@@ -1397,8 +1756,51 @@ units = {
 		ship = { name = "HMS Perseus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }		
 		ship = { name = "HMS Phoenix" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }		
 		ship = { name = "HMS Rainbow" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }	
-		ship = { name = "HMS Regulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }	
-	}				
+		ship = { name = "HMS Regulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		ship = { name = "SS-01" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-02" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-03" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-04" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-05" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-06" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-07" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-08" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-09" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+ship = { name = "SS-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }	
+	}
+	##### Naval OOB #####
+	navy = {				
+		name = "Atlantic Squadron"			
+		base = 7361 
+		location = 7361 # Halifax
+		# Scrap Iron Flotilla
+		ship = { name = "HMCS Saguenay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMCS Skeena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	##### Naval OOB #####
+	navy = {				
+		name = "Australian Squadron"			
+		base = 12406
+		location = 12406 # Sydney
+		ship = { name = "HMAS Canberra" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMAS Australia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+		ship = { name = "HMAS Sydney" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# Scrap Iron Flotilla
+		ship = { name = "HMAS Stuart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMAS Vampire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMAS Vendetta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMAS Voyager" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMAS Waterhen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}								
 }
 
 
