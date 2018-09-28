@@ -479,6 +479,10 @@ PON = {
 	color = rgb { 112  18  170 }
 	color_ui = rgb { 112  18  170 }
 }
+ASY = {
+	color = rgb { 66  131  244 }
+	color_ui = rgb { 66  131  244 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
