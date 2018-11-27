@@ -34,6 +34,7 @@ set_technology = {
 	basic_heavy_cruiser = 1
 	early_battleship = 1
 	basic_battleship = 1
+	heavy_battleship = 1
 	early_battlecruiser = 1
 	mobile_warfare = 1
 	trade_interdiction = 1

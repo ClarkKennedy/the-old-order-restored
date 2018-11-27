@@ -389,30 +389,203 @@ units = {
 
 	##### NAVAL UNITS #####
 	navy = {
-		name = "Kriegsmarine"
+		name = "Kaiserliche Marine"
 		base = 241
 		location = 241  # Wilhemshaven
 		ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
 		ship = { name = "Admiral Scheer" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+		ship = { name = "Prinz Adalbert" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Furst Bismarck" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Roon" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Blucher" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Prinz Heinrich" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Irene" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Prinzess Wilhelm" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Agusta" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Victoria Louise" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Vineta" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Schwalbe" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Freya" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Hansa" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Lubeck" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Steierland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Hertha" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Kaiserin Augusta" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+ship = { name = "Mighty Ulm" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
 		ship = { name = "Nürnberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
 		ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
 		ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
 		ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
 		ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
 		ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+		ship = { name = "CL-01" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-02" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-03" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-04" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-05" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-06" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-07" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-08" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-09" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-35" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-36" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-42" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-43" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "CL-44" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
 		# 1. Torpedobootflottille
 		ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Luchs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Tiger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "DD-01" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-02" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-03" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-04" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-05" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-06" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-07" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-08" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-09" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-43" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-44" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-45" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-46" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-47" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-48" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-49" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-50" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-51" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-52" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-53" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-54" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-55" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-56" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-57" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-58" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-59" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-60" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-61" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-62" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-63" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-64" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-65" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-66" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-67" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-68" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-69" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-70" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-71" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-72" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-73" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-74" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-75" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-76" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-77" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-78" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-79" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-80" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-81" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-82" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-83" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-84" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-85" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-86" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-87" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-88" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-89" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-90" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-91" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-92" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-93" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-94" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-95" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+ship = { name = "DD-96" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 	}
 
 	navy = {
 		name = "Ostseeflotte"
 		base = 6332
 		location = 6332  # Konigsberg
+		ship = { name = "Nassau" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Hannover" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = GER } } }
+        ship = { name = "Reich" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
-		ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }		
+		ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Kronprinz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+ship = { name = "Konig Wilhelm" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+ship = { name = "Hansa" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+ship = { name = "Preussen" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+ship = { name = "Kaiser" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+ship = { name = "Bayern" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+ship = { name = "Baden" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+ship = { name = "Arminius" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+        ship = { name = "Ersatz Yorck" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "Mackensen" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "Derfflinger" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER } } }
+ship = { name = "Moltke" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER } } }		
 		# 2. Torpedobootflottille
 		ship = { name = "Möwe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }

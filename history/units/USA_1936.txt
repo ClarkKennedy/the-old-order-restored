@@ -473,7 +473,11 @@ units = {
 		location = 1562 # San Diego
 		ship = { name = "USS Nevada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
 		ship = { name = "USS Arizona" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
-		ship = { name = "USS Pennsylvania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
+		ship = { name = "USS Pennsylvania" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+		ship = { name = "USS Pride" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = USA } } }
+		ship = { name = "USS Indefatigable" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = USA } } }	
+		ship = { name = "USS Powerful" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = USA } } }	
+		ship = { name = "USS Yorktown" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = USA } } }					
 	}					
 	navy = {					
 		name = "Battleship Division 2"				
@@ -516,7 +520,60 @@ units = {
 		location = 1562 # San Diego
 		ship = { name = "USS Richmond" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
 		ship = { name = "USS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
-		ship = { name = "USS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "USS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		ship = { name = "USS CL-01" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-02" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-03" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-04" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-05" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-06" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-07" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-08" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-09" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-35" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-36" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-42" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-43" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-44" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-45" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-46" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-47" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-48" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-49" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-50" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-51" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-52" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS CL-53" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
 	}					
 	navy = {					
 		name = "Cruiser Division 4"				
@@ -525,7 +582,20 @@ units = {
 		ship = { name = "USS Pensacola" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
 		ship = { name = "USS Salt Lake City" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
 		ship = { name = "USS Chicago" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
-		ship = { name = "USS Indianapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
+		ship = { name = "USS Indianapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+		ship = { name = "USS Ability" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Abraham Lincoln" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Agamemnon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Agenor" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Albany" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Allentown" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Republic" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Texas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Canada" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Albuquerque" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Meme" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Agamenticus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+ship = { name = "USS Boaty" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
 	}					
 	navy = {					
 		name = "Cruiser Division 5"				
@@ -570,7 +640,96 @@ units = {
 		ship = { name = "USS Thornton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 		ship = { name = "USS Litchfield" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 		ship = { name = "USS Zane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Wasmuth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "USS Wasmuth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+		ship = { name = "USS DD-01" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-02" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-03" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-04" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-05" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-06" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-07" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-08" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-09" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-43" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-44" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-45" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-46" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-47" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-48" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-49" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-50" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-51" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-52" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-53" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-54" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-55" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-56" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-57" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-58" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-59" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-60" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-61" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-62" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-63" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-64" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-65" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-66" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-67" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-68" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-69" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-70" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-71" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-72" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-73" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-74" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-75" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-76" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-77" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-78" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-79" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-80" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-81" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-82" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-83" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-84" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-85" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-86" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-87" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-88" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+ship = { name = "USS DD-89" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
 	}				
 	navy = {					
 		name = "Destroyer Flotilla  5"				
@@ -694,7 +853,12 @@ units = {
 		location = 788 # Norfolk
 		ship = { name = "USS New Mexico" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
 		ship = { name = "USS Mississippi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
-		ship = { name = "USS Idaho" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
+		ship = { name = "USS Idaho" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }
+		ship = { name = "USS Alligator" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+ship = { name = "USS Constitution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+ship = { name = "USS Washington" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+ship = { name = "USS Impregnable" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }
+ship = { name = "USS Invincible" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
 	}					
 	navy = {					
 		name = "Battleship Division 5"				
